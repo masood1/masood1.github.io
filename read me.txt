@@ -1,0 +1,7 @@
+
+Links for sliding using slicks
+
+
+http://kenwheeler.github.io/slick/
+
+http://codepen.io/paveldominguez/pen/ElLfb
