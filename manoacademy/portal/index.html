@@ -1,0 +1,251 @@
+
+
+
+<html >
+
+
+
+  <head>
+    
+    <title>mano academy</title>
+    
+    
+    
+    
+        <style>
+      
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(portal-images/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#in{
+display:none;
+
+}
+
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+    </style>
+
+
+    
+	
+	
+  </head>
+
+  <body>
+
+    <div class="body">
+	</div>
+		
+		<div class="header">
+			<div>Student<span>ID</span></div>
+		</div>
+		<br>
+		
+
+
+		<div class="login">
+		<form>
+	
+		<input type="text" placeholder="Registration ID" id="t1" name="user" onfocus="msg_go()" /><br>
+				
+				<input type="button" value="View Information" onclick="checkreg()" />
+		  <div id="in" >
+	  <center>
+		<h2 style="background-color:red"> <br/>Invalid Registration Id <br/> Check capital later </h2> 
+		</center>
+		
+		</div>
+
+		
+		</form>
+		
+    
+<script>
+function msg_go()
+{
+var s=document.getElementById("in");
+s.style.display="none";
+
+
+}
+
+
+
+function checkreg()
+{
+
+
+var a=document.getElementById("t1").value;
+
+if(a=="16MA001" || a=="16ma001")
+{
+localStorage.setItem("id", a);
+window.open("portal.html","_self");
+
+}
+else if(a=="16MA002" || a=="16ma002")
+{
+localStorage.setItem("id", a);
+window.open("portal2.html","_self");
+
+
+}
+else if(a=="16MA003" || a=="16ma003")
+{
+localStorage.setItem("id", a);
+window.open("portal3.html","_self");
+}
+else if(a=="16MA004" || a=="16ma004")
+{
+localStorage.setItem("id", a);
+window.open("portal4.html","_self");
+}
+
+else if(a=="16MA005" || a=="16ma005")
+{
+localStorage.setItem("id", a);
+window.open("portal5.html","_self");
+
+
+}
+
+
+else
+{
+var s=document.getElementById("in");
+s.style.display="block";
+
+}
+
+}
+
+</script>
+
+		
+		</div>
+  
+
+    
+  </body>
+  
+  
+  
+  
+</html>
