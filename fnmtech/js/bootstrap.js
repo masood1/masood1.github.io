@@ -1,10 +1,3 @@
-/* ========================================================================
- * Bootstrap: alert.js v3.1.0
- * http://getbootstrap.com/javascript/#alerts
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
@@ -1304,13 +1297,6 @@
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: tab.js v3.1.0
- * http://getbootstrap.com/javascript/#tabs
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
@@ -1429,15 +1415,6 @@
   })
 
 }(jQuery);
-
-/* ========================================================================
- * Bootstrap: affix.js v3.1.0
- * http://getbootstrap.com/javascript/#affix
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
-
 
 +function ($) {
   'use strict';
@@ -1567,14 +1544,6 @@
   })
 
 }(jQuery);
-
-/* ========================================================================
- * Bootstrap: collapse.js v3.1.0
- * http://getbootstrap.com/javascript/#collapse
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
@@ -1739,15 +1708,6 @@
 
 }(jQuery);
 
-/* ========================================================================
- * Bootstrap: scrollspy.js v3.1.0
- * http://getbootstrap.com/javascript/#scrollspy
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
-
-
 +function ($) {
   'use strict';
 
@@ -1892,14 +1852,6 @@
   })
 
 }(jQuery);
-
-/* ========================================================================
- * Bootstrap: transition.js v3.1.0
- * http://getbootstrap.com/javascript/#transitions
- * ========================================================================
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ======================================================================== */
 
 
 +function ($) {
